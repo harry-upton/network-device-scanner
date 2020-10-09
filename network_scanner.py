@@ -30,4 +30,5 @@ def deviceConnected(ip, mac):
             return True
     return False
 
-print(deviceConnected(ip_range, device_mac))
+if __name__ == '__main__':
+    print(deviceConnected(ip_range, device_mac))
